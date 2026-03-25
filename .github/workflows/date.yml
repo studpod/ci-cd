@@ -1,0 +1,12 @@
+name: Show Date on Push
+
+on:
+  push:
+
+jobs:
+  show-date:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Show current date
+        run: date
